@@ -13,6 +13,7 @@ import{ FormsModule} from "@angular/forms";
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
+//import { GraficaDonaComponent } from './components/grafica-dona/grafica-dona.component';
 // import { IncrementadorComponent } from './components/incrementador/incrementador.component';
 
 
@@ -21,6 +22,7 @@ import { RegisterComponent } from './login/register.component';
     AppComponent,
     LoginComponent,
     RegisterComponent,
+    //GraficaDonaComponent,
     // IncrementadorComponent
   ],
   imports: [
