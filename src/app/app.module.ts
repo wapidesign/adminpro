@@ -13,8 +13,12 @@ import{ FormsModule} from "@angular/forms";
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
+
+//servicios
 //import { GraficaDonaComponent } from './components/grafica-dona/grafica-dona.component';
 // import { IncrementadorComponent } from './components/incrementador/incrementador.component';
+import { ServiceModule } from './services/service.module';
+
 
 
 @NgModule({
@@ -30,7 +34,8 @@ import { RegisterComponent } from './login/register.component';
     AppRoutingModule,
     APP_ROUTES,
     PagesModule,
-    FormsModule
+    FormsModule,
+    ServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]
